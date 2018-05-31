@@ -46,6 +46,12 @@ input:focus, textarea:focus {
 .contenedor {
    width: 800px;
    margin: auto;  
+   position: relative;
+}
+
+.background {
+   background-image: url('../img/background.png');
+   background-size: cover;
 }
 
 .titulo {
@@ -80,8 +86,6 @@ input:focus, textarea:focus {
 }
 
 .portada {
-   background-image: url('../img/background.png');
-   background-size: cover;
    color: white;
    padding: 20px;
    height: 500px;
@@ -241,3 +245,6 @@ input:focus, textarea:focus {
    margin-top: 10px;
 }
 
+.tabla {
+   margin: 50px 0;
+}
